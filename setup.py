@@ -16,11 +16,13 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/pypa/sampleproject/issues",
     },
     classifiers=[
-        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.7",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    install_requires=['fonttools==4.28.2'],
+    install_requires=['fonttools==4.28.2',
+                                'kiwisolver==1.3.2'
+    ],
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
     python_requires=">=3.7",
