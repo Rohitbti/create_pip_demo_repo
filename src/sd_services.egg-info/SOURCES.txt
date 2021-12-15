@@ -2,8 +2,9 @@ LICENSE
 README.md
 pyproject.toml
 setup.py
-src/example_package/__init__.py
-src/example_package/my_module.py
+src/sd_services/__init__.py
+src/sd_services/pom_services.py
+src/sd_services/probTools4.py
 src/sd_services.egg-info/PKG-INFO
 src/sd_services.egg-info/SOURCES.txt
 src/sd_services.egg-info/dependency_links.txt
